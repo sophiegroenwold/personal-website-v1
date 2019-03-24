@@ -10,6 +10,13 @@
   position: absolute;
 }
 
+.parentLinks
+{
+  position: absolute;
+  margin-top: 170px;
+  left: 15%;
+}
+
 h1.block
 {
   text-align: center;
@@ -91,7 +98,24 @@ a.link3:hover
   background-color: #FFFFFF;
 }
 
-.links:active
+a.emailLink
 {
-  color: #9696FA;
+  color: #2F2F2F;
+  text-decoration: none;
 }
+
+a.emailLink:hover
+{
+  transition: 0.6s;
+  color: #727272;
+}
+
+p
+{
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-weight: 300;
+  color: #2F2F2F;
+  letter-spacing: 1px;
+  margin: 6px;
+}
+
