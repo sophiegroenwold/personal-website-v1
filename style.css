@@ -1,7 +1,14 @@
+.photo
+{
+  position: absolute;
+  margin-top:25px;
+  left: 15%;
+}
+
 .parent
 {
   position: absolute;
-  margin-top: 25px;
+  margin-top: 285px;
   left: 15%;
 }
 
@@ -13,14 +20,14 @@
 .parentLinks
 {
   position: absolute;
-  margin-top: 170px;
+  margin-top: 430px;
   left: 15%;
 }
 
 .currentlies
 {
   position: absolute;
-  margin-top: 240px;
+  margin-top: 500px;
   left: 15%;
 }
 
@@ -128,10 +135,11 @@ p
 
 hr
 {
-  size: 1px;
+  height: 1px;
+  border-width: 0px;
   color: #2F2F2F;
   width: 340px;
   position: absolute;
-  top: 233px;
+  top: 493px;
   left: 15%;
 }
