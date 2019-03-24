@@ -17,6 +17,13 @@
   left: 15%;
 }
 
+.currentlies
+{
+  position: absolute;
+  margin-top: 240px;
+  left: 15%;
+}
+
 h1.block
 {
   text-align: center;
@@ -98,16 +105,16 @@ a.link3:hover
   background-color: #FFFFFF;
 }
 
-a.emailLink
+a.normalLink
 {
   color: #2F2F2F;
   text-decoration: none;
 }
 
-a.emailLink:hover
+a.normalLink:hover
 {
   transition: 0.6s;
-  color: #727272;
+  color: #B3B2B3;
 }
 
 p
@@ -119,3 +126,12 @@ p
   margin: 6px;
 }
 
+hr
+{
+  size: 1px;
+  color: #2F2F2F;
+  width: 340px;
+  position: absolute;
+  top: 233px;
+  left: 15%;
+}
