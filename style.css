@@ -1,20 +1,26 @@
 .parent
 {
-  position: absolute;
+  position: relative;
   left: 15%;
   right: 15%;
-  margin-top: 25px;
+  margin-top: 0%;
 }
 
 .left
 {
+  position: relative;
   float: left;
+  top: 45%;
 }
 
 .photo
 {
   position: relative;
-  margin-bottom: 10px;
+  margin-left: 43%;
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 25px;
+  border-radius: 20px;
 }
 
 h1.block
@@ -24,8 +30,9 @@ h1.block
   color: #0016D8;
   padding: 20px;
   height: 40px;
-  margin: 0px;
-  width: 300px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 301px;
   top: 0px;
   left: 0px;
   font-family: "Helvetica Neue", helvetica, arial, sans-serif;
@@ -47,7 +54,7 @@ a.link1
   width: 21.55%;
   font-family: helvetica, arial, sans-serif;
   font-weight: 100;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 a.link2
@@ -64,7 +71,7 @@ a.link2
   width: 21.55%;
   font-family: helvetica, arial, sans-serif;
   font-weight: 100;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 a.link3
@@ -81,7 +88,7 @@ a.link3
   width: 21.56%;
   font-family: helvetica, arial, sans-serif;
   font-weight: 100;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 a.link1:hover
@@ -104,6 +111,8 @@ a.link3:hover
 
 hr
 {
+  margin-top: 17px;
+  margin-bottom: 17px;
   height: 1px;
   border-width: 0px;
   width: 340px;
@@ -118,20 +127,24 @@ hr
 .right
 {
   position: relative;
+  float: left;
   left: 5%;
+  margin-right: 20%;
   min-width: 20px;
+  max-width: 45%;
 }
 
 a.normalLink
 {
-  color: #424242;
+  color: #0016D8;
   text-decoration: none;
 }
 
 a.normalLink:hover
 {
-  transition: 0.6s;
-  color: #B3B2B3;
+  transition: 0.4s;
+  color: #A4A4A4;
+  background-color: #fff;
 }
 
 p
