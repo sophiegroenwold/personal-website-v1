@@ -40,7 +40,7 @@ h1.block
   height: 40px;
   margin-top: 0px;
   margin-bottom: 0px;
-  width: 375px;
+  width: 301px;
   top: 0px;
   left: 0px;
   font-family: "Helvetica Neue", helvetica, arial, sans-serif;
@@ -130,7 +130,6 @@ hr
 .currentlies
 {
   position: relative;
-  font-size: 12px;
 }
 
 .right
